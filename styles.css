@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+:root {
+    --jons-blue: #1e90ff;
+    --jons-font-size: 1.5rem;
+
+}
+
+
+*{
+    font-family: cursive;
+}
+
+main{
+    display: flex;
+}
+section > h2 {
+    border:var(--jons-blue);
+    border-style:double;
+    border-color: rgb(45, 12, 210);
+}
+
+#out-section{
+    color: rgb(19, 144, 175);
+}
+
+#out-cast{
+    color: rgb(177, 18, 116) !important;
+}
